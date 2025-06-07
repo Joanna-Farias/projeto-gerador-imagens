@@ -405,6 +405,14 @@ section {
     border-radius: 5px;
 }
 
+.minha-foto{
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
+  margin-left: 3rem;
+  padding-bottom: 1rem;
+}
+
 /*CONTATOS*/
 
 .form-container {
