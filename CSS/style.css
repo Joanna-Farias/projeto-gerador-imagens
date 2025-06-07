@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+@import url('https://fonts.gstatic.com/s/poppins/v23/pxiGyp8kv8JHgFVrLPTucHtA.woff2');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #016f94 0%, #222020 100%);
+  min-height: 100vh;
+}
+
+/* Navbar */
+header {
+  padding: 20px 5%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 70px;
+  height: 55px;
+}
+
+.logo-text {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  position: absolute;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #00cfff;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.contacts-button button {
+  padding: 10px 20px;
+  background-color: #fdff90;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contacts-button button:hover {
+  background-color: #000000;
+  color: white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Main */
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 10%;
+}
+
+.home-img {
+  flex: 1;
+  text-align: center;
+}
+
+.cat-img {
+  max-width: 300px;
+  height: auto;
+}
+
+.home-content {
+  flex: 2;
+  color: white;
+  padding-left: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home-content h2 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home-content h3 {
+  font-size: 18px;
+}
+
+/*HOME*/
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 10%;
+  gap: 50px;
+}
+
+.home-img {
+  flex: 1;
+  text-align: center;
+}
+
+.cat-img {
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+  margin-left: 40%;
+}
+
+.home-content {
+  color: white;
+  margin-left: 10px;
+}
+
+.home-content h2 {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+  padding-left: 5%;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.home-content .h3-2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 30%;
+}
+
+.home-content span {
+  font-weight: bold;
+}
+
+.home-content p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.main-btn {
+  margin-top: 10%;
+  margin-left: 70%;
+  font-size: 18px;
+  padding: 12px 80px;
+  background-color: #278faf;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.main-btn:hover {
+  background-color: #000000;
+  color: white;
+  transition: 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/*GERADOR*/
+
+.main-generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+  color: white;
+}
+
+.main-generator h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.main-generator img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.main-generator button {
+  padding: 12px 30px;
+  background-color: #278faf;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.main-generator button:hover {
+  background-color: #003380;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.main-generator .input-single {
+  position: relative;
+  margin: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.main-generator .input {
+  border: 0;
+  border-bottom: 2px solid #ffffff;
+  padding: 10px 0;
+  font-size: 16px;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.main-generator .input:focus {
+  border-bottom-color: #ffffff;
+}
+
+.main-generator .input-single label {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  color: #ffffffb3;
+  cursor: text;
+  transition: all 0.3s ease;
+}
+
+.main-generator .input:focus ~ label,
+.main-generator .input:valid ~ label {
+  transform: translateY(-25px);
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.main-generator h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  color: white;
+  margin-bottom: 0;
+}
+
+.about-img{
+  width: 350px;
+  margin-left: -10% ;
+}
+
+.main-generator button {
+  padding: 12px 30px;
+  background-color: #0047ab;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.main-generator button:hover {
+  background-color: #003380;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/*GALERIA*/
+
+.main-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-gallery h1 {
+  font-family: "cinzel decorative";
+  font-size: 2rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.main-gallery img {
+  width: 300px;
+  height: 300px;
+}
+
+.main-gallery p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.main-gallery button {
+  margin-top: 1.5rem;
+  padding: 14px 40px;
+  background-color: #278faf;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.main-gallery button:hover {
+  background-color: #003380;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+/*SOBRE*/
+
+.main-about {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.main-about h2 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #000000;
+  margin-left: 5px;
+}
+
+
+.main-about a{
+  color: #ffec8b;
+}
+
+.main-about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 700px;
+  text-align: left;
+}
+
+.main-about ul {
+  list-style: none;
+  max-width: 300px;
+  margin-left: 50px;
+}
+
+.main-about h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: white;
+    border-bottom: 2px solid #00cfff;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+
+.main-about li {
+    background-color: rgba(0, 199, 255, 0.2);
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+/*CONTATOS*/
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  margin-left: 10%;
+}
+
+.form-container .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container form {
+  background-color: #e8ebf3;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #032573;
+  font-size: 28px;
+  text-align: center;
+}
+
+.form-container p {
+  color: #271d40;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.form-container .input-single {
+  position: relative;
+  margin: 30px 0;
+}
+
+.form-container .input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #ccc;
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+  background-color: transparent;
+  color: #3f401d;
+}
+
+.form-container .input-single label {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  color: #888;
+  cursor: text;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.form-container .input:focus ~ label,
+.form-container .input:valid ~ label {
+  transform: translateY(-25px);
+  font-size: 14px;
+  color: #585cb1;
+}
+
+.form-container .btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.form-container input[type="submit"] {
+  padding: 12px 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: #000000;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #898019;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px #000000;
+}
+
+.form-container img {
+  max-width: 400px;
+  height: auto;
+  margin-left: 2rem;
+}
