@@ -515,3 +515,15 @@ section {
   height: auto;
   margin-left: 2rem;
 }
+
+footer {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-top: 5%;
+  padding-bottom: 2rem;
+}
+
+footer a{
+  color: #fbfcbf;
+}
